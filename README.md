@@ -5,7 +5,7 @@
 
 Complete simulation code, analysis scripts, and supplementary results for:
 
-> **Bakım, S.** (2025). *Phase transitions and emergent behavioral coordination in coupled awareness–epidemic dynamics on complex networks: An agent-based approach with autonomous decision-making.* Physica A: Statistical Mechanics and its Applications.
+> **Bakım, S.** (2025). *Phase transitions and emergent behavioral coordination in coupled awareness–epidemic dynamics on complex networks: An agent-based approach with autonomous decision-making.* 
 
 ---
 
@@ -54,11 +54,6 @@ The framework couples three dynamical processes:
 | Finite-size scaling | Suppression increases monotonically toward N = 10,000 |
 | Robustness | β₀ dominance confirmed across ±30%, ±50%, ±70% LHS perturbation ranges |
 
-> **Note on Λ.** Earlier drafts used Λ_BA ≈ 35.5; the correct measured value for a
-> Barabási–Albert network with m = 4 at N = 500 is **Λ_BA ≈ 15.6**
-> (`src.networks.measure_lambda`). All code measures Λ directly rather than
-> hard-coding it.
-
 ---
 
 ## Repository structure
@@ -97,7 +92,7 @@ Running any analysis writes JSON to `results/` and PNGs to `figures/`
 ## Installation
 
 ```bash
-git clone https://github.com/<username>/awareness-epidemic-abm.git
+git clone https://github.com/sbakim/awareness-epidemic-abm.git
 cd awareness-epidemic-abm
 pip install -r requirements.txt
 ```
@@ -170,19 +165,6 @@ script reproduces identical numbers on re-run. For full determinism set
 | S6 | S5 + awareness-dependent network rewiring |
 
 ---
-
-## Citation
-
-```bibtex
-@article{bakim2025phase,
-  title   = {Phase transitions and emergent behavioral coordination in coupled
-             awareness--epidemic dynamics on complex networks},
-  author  = {Bak{\i}m, S{\"u}meyye},
-  journal = {Physica A: Statistical Mechanics and its Applications},
-  year    = {2025},
-  note    = {Under review}
-}
-```
 
 ## Contact
 
