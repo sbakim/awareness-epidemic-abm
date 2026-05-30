@@ -1,0 +1,67 @@
+{
+  "calibration": {
+    "params": [
+      1.7820038410065688,
+      1.42871166093567,
+      8.596209915846885,
+      -3.6753243497317647,
+      0.7570145330878177
+    ],
+    "rmse": 0.00023428728212621693,
+    "r2": 0.9999987025981784
+  },
+  "by_topology": {
+    "BA": {
+      "total_multi_mean": 30.700000000000006,
+      "total_single_mean": 30.0,
+      "total_diff_pp": 0.7000000000000064,
+      "total_p": 0.7556651472236434,
+      "total_sig": "ns",
+      "entropy_multi": 0.808816339925355,
+      "entropy_single": 0.47753932759268325,
+      "protection_levels_multi": 4.0,
+      "protection_levels_single": 2.0,
+      "level_entropy_multi": 0.8088163399253551,
+      "level_entropy_single": 0.47753932759268325
+    },
+    "WS": {
+      "total_multi_mean": 11.360000000000001,
+      "total_single_mean": 11.600000000000001,
+      "total_diff_pp": -0.2400000000000002,
+      "total_p": 0.9676026991278142,
+      "total_sig": "ns",
+      "entropy_multi": 0.656428488991015,
+      "entropy_single": 0.37600725749385067,
+      "protection_levels_multi": 3.9,
+      "protection_levels_single": 2.0,
+      "level_entropy_multi": 0.656428488991015,
+      "level_entropy_single": 0.37600725749385067
+    },
+    "ER": {
+      "total_multi_mean": 16.019218436873746,
+      "total_single_mean": 16.09951903807615,
+      "total_diff_pp": -0.08030060120240279,
+      "total_p": 0.8076385012102276,
+      "total_sig": "ns",
+      "entropy_multi": 0.7142177531262321,
+      "entropy_single": 0.4074333280140373,
+      "protection_levels_multi": 4.0,
+      "protection_levels_single": 2.0,
+      "level_entropy_multi": 0.7142177531262323,
+      "level_entropy_single": 0.4074333280140373
+    },
+    "MOD": {
+      "total_multi_mean": 17.415016780549045,
+      "total_single_mean": 17.84551874834005,
+      "total_diff_pp": -0.430501967791006,
+      "total_p": 0.4169459187356698,
+      "total_sig": "ns",
+      "entropy_multi": 0.6894045242735165,
+      "entropy_single": 0.4100074422982257,
+      "protection_levels_multi": 3.85,
+      "protection_levels_single": 2.0,
+      "level_entropy_multi": 0.6894045242735164,
+      "level_entropy_single": 0.4100074422982257
+    }
+  }
+}
